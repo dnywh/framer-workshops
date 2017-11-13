@@ -1,5 +1,5 @@
 # Framer Workshops
-Resources and prototypes I tend to go through when giving workshops.
+A one-stop-shop for running Framer workshops. Good for 3 hours, with wiggle-room for more/less.
 
 ## Outcomes
 By the end of the workshop your students should hopefully have some understanding of the below. They shouldn't be expected to re-create what they've learnt immediately—confidence, familiarity, and being able to 'think' programmatically is great.
@@ -35,14 +35,16 @@ By the end of the workshop your students should hopefully have some understandin
 - Previewing on mobile
 - Sharing to framer.cloud
 
+_If you have more than 3 hours, or students are flying through the above, try adding interaction to the other articles and buttons in the feed._
 
+---
 
 ## Starting off
 Get a feel for the room's familiarity with [Framer][framer], [Sketch][sketch], and coding/digital design in general. Adapt the pace and depth of the sessions accordingly.
 
 ## Prerequisites
 ### Framer
-For Mac only. Minimum system requirements unknown, though I've run it on pretty low-end college computers okay.
+[Framer][framer] is Mac only. Minimum system requirements unknown, though I've run it on pretty low-end college computers okay.
 
 #### Framer Library
 If a student doesn't have a Mac, has a lapsed trial, or any other problem, they can download the free [Framer Library][library].
@@ -52,7 +54,7 @@ If you'd like students to demo _Preview on mobile_. Sometimes impossible on coll
 
 
 ## The prototype
-`arts.framer`: A replica of the NYTimes Arts section as a stand-alone native app. I show this at the start (and occasionally throughout) to give context of what's going to be built. We always start with a blank prototype.
+`arts.framer`: A replica of the [NYTimes Arts][arts] section as a stand-alone native app. I show this at the start (and occasionally throughout) to give context of what's going to be built. We always start with a blank prototype.
 
 ![Previw of arts.framer](arts-preview.jpg)
 
@@ -71,11 +73,12 @@ How to keep progressing after this workshop:
 - Go through other [video][video-tutorials] and [text][text-tutorials] tutorials
 
 ## What I don't cover
+I find that doing these things too early and cause confusion and scare people away:
 - Loops
 - Modules
 - APIs
 
-
+[arts]:https://www.nytimes.com/section/arts
 [framer]:https://framer.com
 [sketch]:http://sketchapp.com
 [library]:https://github.com/koenbok/Framer#set-up-framer-library
