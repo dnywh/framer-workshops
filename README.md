@@ -1,6 +1,8 @@
 # Framer Workshops
 A one-stop-shop for running Framer workshops. Good for 3 hours, with wiggle-room for more/less.
 
+See [the wiki](https://github.com/dannyalright/framer-workshops/wiki/) for general Framer tips and practices.
+
 ## Outcomes
 By the end of the workshop your students should hopefully have some understanding of the below. They shouldn't be expected to re-create what they've learnt immediately—confidence, familiarity, and being able to 'think' programmatically is great.
 
