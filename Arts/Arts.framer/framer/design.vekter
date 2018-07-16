@@ -4,9 +4,32 @@
     "children" : [
       {
         "__class" : "FrameNode",
+        "aspectRatioLocked" : false,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "blur" : 12,
+        "blurEnabled" : 0,
+        "blurType" : "layer",
+        "borderBottom" : 1,
+        "borderColor" : "#222",
+        "borderEnabled" : 0,
+        "borderLeft" : 1,
+        "borderPerSide" : false,
+        "borderRight" : 1,
+        "borderStyle" : "solid",
+        "borderTop" : 1,
+        "borderWidth" : 1,
+        "bottom" : null,
+        "boxShadows" : [
+
+        ],
+        "brightness" : 100,
+        "brightnessEnabled" : 0,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
         "children" : [
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -53,6 +76,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.08533333333333333,
                 "centerAnchorY" : 0.50769230769230766,
+                "colorable" : true,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -67,6 +91,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -114,6 +142,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.91466666666666663,
                 "centerAnchorY" : 0.50769230769230766,
+                "colorable" : true,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -128,6 +157,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -163,7 +196,7 @@
                 "widthFactor" : null
               },
               {
-                "__class" : "ImageNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : true,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -194,11 +227,25 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
                 "fillColor" : "transparent",
-                "fillEnabled" : false,
+                "fillEnabled" : true,
+                "fillGradient" : {
+                  "__class" : "LinearGradient",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "end" : "rgba(0,0,0,0)",
+                  "start" : "black"
+                },
+                "fillImage" : "jBfL9uOhqsuDLMELqliOlZOsWRemC7RHxBWWjyJGPkLKAlhnikSOPLkfdD3Gz8mODme9zaktbq7MlAVr6AcdA.png",
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "image",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
                 "height" : 29,
@@ -206,8 +253,6 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "Cb9:IRE5",
-                "image" : "jBfL9uOhqsuDLMELqliOlZOsWRemC7RHxBWWjyJGPkLKAlhnikSOPLkfdD3Gz8mODme9zaktbq7MlAVr6AcdA.png",
-                "imageBackgroundSize" : "Cover",
                 "intrinsicHeight" : 69,
                 "intrinsicWidth" : 162,
                 "invert" : 0,
@@ -216,11 +261,11 @@
                 "locked" : false,
                 "name" : null,
                 "opacity" : 1,
-                "originalFilename" : "artsSection.png",
                 "parentid" : "`C)JWW]V",
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -241,6 +286,8 @@
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -253,6 +300,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -261,6 +312,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "`C)JWW]V",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 0,
@@ -271,6 +324,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -287,7 +341,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -325,6 +379,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.78666666666666663,
                 "centerAnchorY" : 0.80333333333333334,
+                "colorable" : true,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -339,6 +394,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -386,6 +445,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.91733333333333333,
                 "centerAnchorY" : 0.80333333333333334,
+                "colorable" : true,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -400,6 +460,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -526,6 +590,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"97ncn-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFCompactText-Regular&quot;, &quot;.SFCompactText-Regular&quot;, serif;-webkit-text-fill-color:#777777;font-size:15px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">Nov 10<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 21,
+                      "width" : 47
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -534,9 +607,7 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 47,
-                "widthFactor" : null,
-                "x" : 20,
-                "y" : 376
+                "widthFactor" : null
               },
               {
                 "__class" : "TextNode",
@@ -630,6 +701,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"du6nd-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:#555555;font-size:15px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">A new exhibition at the New York Historical Society looks at some of the radical figures who made the Village a hotbed of suffragist activity.<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 63,
+                      "width" : 336
+                    },
+                    "width" : 335
+                  },
                   "entityMap" : {
 
                   }
@@ -638,12 +718,10 @@
                 "top" : 142,
                 "visible" : true,
                 "width" : 335,
-                "widthFactor" : null,
-                "x" : 20,
-                "y" : 288
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : true,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -669,7 +747,7 @@
                 "centerAnchorY" : 0.23666666666666666,
                 "children" : [
                   {
-                    "__class" : "ImageNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : true,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -700,11 +778,25 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "transparent",
-                    "fillEnabled" : false,
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : "xsZF9OdcMycJRB3Rl27kDImmeZyl1QKVBzyG8DVCJ8uG0UlPjf7rjdCgA1K0PO3j6iR7YGB88DteeCnKXVXQ",
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
                     "height" : 141,
@@ -712,8 +804,6 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : "5&UjnoUO",
-                    "image" : "xsZF9OdcMycJRB3Rl27kDImmeZyl1QKVBzyG8DVCJ8uG0UlPjf7rjdCgA1K0PO3j6iR7YGB88DteeCnKXVXQ",
-                    "imageBackgroundSize" : "Cover",
                     "intrinsicHeight" : 259,
                     "intrinsicWidth" : 384,
                     "invert" : 0,
@@ -722,11 +812,11 @@
                     "locked" : false,
                     "name" : null,
                     "opacity" : 1,
-                    "originalFilename" : "milholland.jpg",
                     "parentid" : "_tEs$76D",
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -747,6 +837,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -759,6 +851,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -767,6 +863,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "_tEs$76D",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : null,
@@ -777,6 +875,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -793,7 +892,7 @@
                 "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -824,6 +923,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -836,6 +937,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -844,6 +949,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "wOzfT[70",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : 20,
@@ -854,6 +961,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -961,6 +1069,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"5vtih-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:#333333;font-size:19px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">From Greenwich Village to the Nation, Leading the Push for Women’s Rights<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 104,
+                      "width" : 199
+                    },
+                    "width" : 198
+                  },
                   "entityMap" : {
 
                   }
@@ -969,15 +1086,15 @@
                 "top" : 20,
                 "visible" : true,
                 "width" : 198,
-                "widthFactor" : null,
-                "x" : 98,
-                "y" : 202
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -990,6 +1107,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -998,6 +1119,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "IP'qfEqK",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 0,
@@ -1008,6 +1131,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -1024,7 +1148,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -1062,6 +1186,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.78666666666666663,
                 "centerAnchorY" : 0.80333333333333334,
+                "colorable" : true,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -1076,6 +1201,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -1123,6 +1252,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.91733333333333333,
                 "centerAnchorY" : 0.80333333333333334,
+                "colorable" : true,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -1137,6 +1267,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -1263,6 +1397,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"97ncn-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFCompactText-Regular&quot;, &quot;.SFCompactText-Regular&quot;, serif;-webkit-text-fill-color:#777777;font-size:15px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">Nov 10<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 21,
+                      "width" : 47
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -1271,9 +1414,7 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 47,
-                "widthFactor" : null,
-                "x" : 20,
-                "y" : 376
+                "widthFactor" : null
               },
               {
                 "__class" : "TextNode",
@@ -1367,6 +1508,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"du6nd-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:#555555;font-size:15px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">The museum has said the sale is necessary for its financial survival.<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 42,
+                      "width" : 336
+                    },
+                    "width" : 335
+                  },
                   "entityMap" : {
 
                   }
@@ -1375,12 +1525,10 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 335,
-                "widthFactor" : null,
-                "x" : 20,
-                "y" : 288
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : true,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -1406,7 +1554,7 @@
                 "centerAnchorY" : 0.23666666666666666,
                 "children" : [
                   {
-                    "__class" : "ImageNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : true,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -1437,11 +1585,25 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "transparent",
-                    "fillEnabled" : false,
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : "vx1C7LJChRlIvgy0Dg6NlTaoqycg4wJcKbQbkW75XVkeCFTA13svIP8NiQJt7itFaTUSitT4JCPxc8apgw",
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
                     "height" : 119,
@@ -1449,8 +1611,6 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : "%l-z(VXO",
-                    "image" : "vx1C7LJChRlIvgy0Dg6NlTaoqycg4wJcKbQbkW75XVkeCFTA13svIP8NiQJt7itFaTUSitT4JCPxc8apgw",
-                    "imageBackgroundSize" : "Cover",
                     "intrinsicHeight" : 232.5,
                     "intrinsicWidth" : 213.5,
                     "invert" : 0,
@@ -1459,11 +1619,11 @@
                     "locked" : false,
                     "name" : "rockwell",
                     "opacity" : 1,
-                    "originalFilename" : "rockwell.jpg",
                     "parentid" : "nJWQm'TE",
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -1484,6 +1644,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -1496,6 +1658,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -1504,6 +1670,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "nJWQm'TE",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : null,
@@ -1514,6 +1682,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -1530,7 +1699,7 @@
                 "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -1561,6 +1730,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -1573,6 +1744,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -1581,6 +1756,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "&EAt_X_U",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : 20,
@@ -1591,6 +1768,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -1698,6 +1876,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"5vtih-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:#333333;font-size:19px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">Court Blocks Berkshire Museum’s Sale of Rockwell Works and Other Art<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 104,
+                      "width" : 199
+                    },
+                    "width" : 198
+                  },
                   "entityMap" : {
 
                   }
@@ -1706,15 +1893,15 @@
                 "top" : 20,
                 "visible" : true,
                 "width" : 198,
-                "widthFactor" : null,
-                "x" : 98,
-                "y" : 202
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -1727,6 +1914,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -1735,6 +1926,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "vvMetyj{",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 0,
@@ -1745,6 +1938,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -1761,7 +1955,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -1799,6 +1993,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.78666666666666663,
                 "centerAnchorY" : 0.80333333333333334,
+                "colorable" : true,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -1813,6 +2008,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -1860,6 +2059,7 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0.91733333333333333,
                 "centerAnchorY" : 0.80333333333333334,
+                "colorable" : true,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
@@ -1874,6 +2074,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -2000,6 +2204,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"97ncn-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFCompactText-Regular&quot;, &quot;.SFCompactText-Regular&quot;, serif;-webkit-text-fill-color:#777777;font-size:15px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">Nov 10<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 21,
+                      "width" : 47
+                    },
+                    "width" : 0
+                  },
                   "entityMap" : {
 
                   }
@@ -2008,9 +2221,7 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 47,
-                "widthFactor" : null,
-                "x" : 20,
-                "y" : 376
+                "widthFactor" : null
               },
               {
                 "__class" : "TextNode",
@@ -2104,6 +2315,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"du6nd-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:#555555;font-size:15px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">Also this week: SundanceTV revisits “In Cold Blood” and Jordi Savall explores “The Routes of Slavery” through music.<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 63,
+                      "width" : 336
+                    },
+                    "width" : 335
+                  },
                   "entityMap" : {
 
                   }
@@ -2112,12 +2332,10 @@
                 "top" : null,
                 "visible" : true,
                 "width" : 335,
-                "widthFactor" : null,
-                "x" : 20,
-                "y" : 288
+                "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : true,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -2143,7 +2361,7 @@
                 "centerAnchorY" : 0.23666666666666666,
                 "children" : [
                   {
-                    "__class" : "ImageNode",
+                    "__class" : "FrameNode",
                     "aspectRatioLocked" : true,
                     "blendingEnabled" : 0,
                     "blendingMode" : "normal",
@@ -2174,11 +2392,25 @@
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
+                    "deviceType" : null,
+                    "exportIncludesBackground" : true,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "transparent",
-                    "fillEnabled" : false,
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : "skzgpsJVrMayyvdXeyCCOtKMcuc6UofJyZU5AFBLcQuWprO4iApBaDzJxkKWfEHJOUbsSNaGSGadxx86yA",
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "image",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
                     "height" : 144,
@@ -2186,8 +2418,6 @@
                     "hueRotate" : 0,
                     "hueRotateEnabled" : 0,
                     "id" : "ZO@Y|F_A",
-                    "image" : "skzgpsJVrMayyvdXeyCCOtKMcuc6UofJyZU5AFBLcQuWprO4iApBaDzJxkKWfEHJOUbsSNaGSGadxx86yA",
-                    "imageBackgroundSize" : "Cover",
                     "intrinsicHeight" : 284.5,
                     "intrinsicWidth" : 213.5,
                     "invert" : 0,
@@ -2196,11 +2426,11 @@
                     "locked" : false,
                     "name" : "sevigny",
                     "opacity" : 1,
-                    "originalFilename" : "Sevigny.jpg",
                     "parentid" : "d!y4vp0P",
                     "radius" : 0,
                     "radiusBottomLeft" : 0,
                     "radiusBottomRight" : 0,
+                    "radiusIsRelative" : false,
                     "radiusPerCorner" : false,
                     "radiusTopLeft" : 0,
                     "radiusTopRight" : 0,
@@ -2221,6 +2451,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -2233,6 +2465,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -2241,6 +2477,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "d!y4vp0P",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : null,
@@ -2251,6 +2489,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -2267,7 +2506,7 @@
                 "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -2298,6 +2537,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -2310,6 +2551,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -2318,6 +2563,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "XHDwHZ-w",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : 20,
@@ -2328,6 +2575,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -2435,6 +2683,15 @@
                       "type" : "unstyled"
                     }
                   ],
+                  "cached" : {
+                    "html" : "<span data-offset-key=\"5vtih-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:#333333;font-size:19px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">Your Week in Culture: Chloë Sevingy, Sharon Jones, Michelangelo’s Drawings at the Met<\/span><\/span>",
+                    "os" : "10_13",
+                    "size" : {
+                      "height" : 104,
+                      "width" : 199
+                    },
+                    "width" : 198
+                  },
                   "entityMap" : {
 
                   }
@@ -2443,15 +2700,15 @@
                 "top" : 20,
                 "visible" : true,
                 "width" : 198,
-                "widthFactor" : null,
-                "x" : 98,
-                "y" : 202
+                "widthFactor" : null
               }
             ],
             "clip" : false,
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -2464,6 +2721,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -2472,6 +2733,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "vW|FCR!4",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 0,
@@ -2482,6 +2745,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -2498,12 +2762,17 @@
             "widthFactor" : null
           }
         ],
+        "clip" : true,
+        "constraintsLocked" : false,
+        "contrast" : 100,
+        "contrastEnabled" : 0,
         "deviceType" : null,
         "exportIncludesBackground" : true,
         "exportOptions" : [
 
         ],
         "fillColor" : "#ffffff",
+        "fillEnabled" : true,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -2511,21 +2780,74 @@
           "end" : "rgba(0,0,0,0)",
           "start" : "black"
         },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
         "fillType" : "color",
+        "grayscale" : 0,
+        "grayScaleEnabled" : 0,
         "height" : 992,
+        "heightFactor" : null,
+        "hueRotate" : 0,
+        "hueRotateEnabled" : 0,
         "id" : "!eN>N|,H",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "invert" : 0,
+        "invertEnabled" : 0,
+        "left" : 0,
+        "locked" : false,
         "name" : "feed",
+        "opacity" : 1,
         "parentid" : "ErdhxVB4",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "saturate" : 100,
+        "saturateEnabled" : 0,
+        "sepia" : 0,
+        "sepiaEnabled" : 0,
         "targetName" : "feed",
+        "top" : 0,
+        "visible" : true,
         "width" : 375,
-        "x" : 0,
-        "y" : 0
+        "widthFactor" : null
       },
       {
         "__class" : "FrameNode",
+        "aspectRatioLocked" : false,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "blur" : 12,
+        "blurEnabled" : 0,
+        "blurType" : "layer",
+        "borderBottom" : 1,
+        "borderColor" : "#222",
+        "borderEnabled" : 0,
+        "borderLeft" : 1,
+        "borderPerSide" : false,
+        "borderRight" : 1,
+        "borderStyle" : "solid",
+        "borderTop" : 1,
+        "borderWidth" : 1,
+        "bottom" : null,
+        "boxShadows" : [
+
+        ],
+        "brightness" : 100,
+        "brightnessEnabled" : 0,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
         "children" : [
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -2560,7 +2882,7 @@
             "centerAnchorY" : 0.048725637181409293,
             "children" : [
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -2598,6 +2920,7 @@
                     "brightnessEnabled" : 0,
                     "centerAnchorX" : 0.54545454545454541,
                     "centerAnchorY" : 0.50769230769230766,
+                    "colorable" : true,
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
@@ -2612,6 +2935,10 @@
                       "end" : "rgba(0,0,0,0)",
                       "start" : "black"
                     },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
                     "fillType" : "color",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
@@ -2659,6 +2986,7 @@
                     "brightnessEnabled" : 0,
                     "centerAnchorX" : 0.5,
                     "centerAnchorY" : 0.50769230769230766,
+                    "colorable" : true,
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
@@ -2673,6 +3001,10 @@
                       "end" : "rgba(0,0,0,0)",
                       "start" : "black"
                     },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
                     "fillType" : "color",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
@@ -2712,6 +3044,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -2724,6 +3058,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -2732,6 +3070,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "%aY#Olzz",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : null,
@@ -2742,6 +3082,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -2758,7 +3099,7 @@
                 "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -2796,6 +3137,7 @@
                     "brightnessEnabled" : 0,
                     "centerAnchorX" : 0.41818181818181815,
                     "centerAnchorY" : 0.50769230769230766,
+                    "colorable" : true,
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
@@ -2810,6 +3152,10 @@
                       "end" : "rgba(0,0,0,0)",
                       "start" : "black"
                     },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
                     "fillType" : "color",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
@@ -2849,6 +3195,8 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -2861,6 +3209,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -2869,6 +3221,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "ixXJX7zD",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : null,
@@ -2879,6 +3233,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -2895,7 +3250,7 @@
                 "widthFactor" : null
               },
               {
-                "__class" : "RectangleNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : false,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -2933,6 +3288,7 @@
                     "brightnessEnabled" : 0,
                     "centerAnchorX" : 0.24427480916030533,
                     "centerAnchorY" : 0.50769230769230766,
+                    "colorable" : true,
                     "constraintsLocked" : false,
                     "contrast" : 100,
                     "contrastEnabled" : 0,
@@ -2947,6 +3303,10 @@
                       "end" : "rgba(0,0,0,0)",
                       "start" : "black"
                     },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
                     "fillType" : "color",
                     "grayscale" : 0,
                     "grayScaleEnabled" : 0,
@@ -3073,6 +3433,15 @@
                           "type" : "unstyled"
                         }
                       ],
+                      "cached" : {
+                        "html" : "<span data-offset-key=\"2a0q4-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFCompactText-Regular&quot;, &quot;.SFCompactText-Regular&quot;, serif;-webkit-text-fill-color:#1199EE;font-size:19px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">Arts<\/span><\/span>",
+                        "os" : "10_13",
+                        "size" : {
+                          "height" : 26,
+                          "width" : 38
+                        },
+                        "width" : 0
+                      },
                       "entityMap" : {
 
                       }
@@ -3081,15 +3450,15 @@
                     "top" : null,
                     "visible" : true,
                     "width" : 38,
-                    "widthFactor" : null,
-                    "x" : 56,
-                    "y" : 33
+                    "widthFactor" : null
                   }
                 ],
                 "clip" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
@@ -3102,6 +3471,10 @@
                   "end" : "rgba(0,0,0,0)",
                   "start" : "black"
                 },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
                 "fillType" : "color",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
@@ -3110,6 +3483,8 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : ".FC<XKV4",
+                "intrinsicHeight" : null,
+                "intrinsicWidth" : null,
                 "invert" : 0,
                 "invertEnabled" : 0,
                 "left" : 0,
@@ -3120,6 +3495,7 @@
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -3140,6 +3516,8 @@
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -3152,6 +3530,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -3160,6 +3542,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "R%@BLm@A",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 0,
@@ -3170,6 +3554,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -3277,6 +3662,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<span data-offset-key=\"97ncn-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFCompactText-Regular&quot;, &quot;.SFCompactText-Regular&quot;, serif;-webkit-text-fill-color:#777777;font-size:12px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">November 10, 2017<\/span><\/span>",
+                "os" : "10_13",
+                "size" : {
+                  "height" : 16,
+                  "width" : 105
+                },
+                "width" : 0
+              },
               "entityMap" : {
 
               }
@@ -3285,9 +3679,7 @@
             "top" : 268,
             "visible" : true,
             "width" : 105,
-            "widthFactor" : null,
-            "x" : 20,
-            "y" : 376
+            "widthFactor" : null
           },
           {
             "__class" : "TextNode",
@@ -3381,6 +3773,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<span data-offset-key=\"du6nd-0-0\" style=\"tab-size:4;font-weight:700;font-family:&quot;Georgia-Bold&quot;, &quot;Georgia&quot;, serif;-webkit-text-fill-color:#555555;font-size:12px;letter-spacing:0px;line-height:1.4\"><span data-text=\"true\">By THE NEW YORK TIMES<\/span><\/span>",
+                "os" : "10_13",
+                "size" : {
+                  "height" : 16,
+                  "width" : 170
+                },
+                "width" : 0
+              },
               "entityMap" : {
 
               }
@@ -3389,12 +3790,10 @@
             "top" : 268,
             "visible" : true,
             "width" : 170,
-            "widthFactor" : null,
-            "x" : 20,
-            "y" : 288
+            "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : true,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -3420,7 +3819,7 @@
             "centerAnchorY" : 0.73688155922038978,
             "children" : [
               {
-                "__class" : "ImageNode",
+                "__class" : "FrameNode",
                 "aspectRatioLocked" : true,
                 "blendingEnabled" : 0,
                 "blendingMode" : "normal",
@@ -3451,11 +3850,25 @@
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "deviceType" : null,
+                "exportIncludesBackground" : true,
                 "exportOptions" : [
 
                 ],
                 "fillColor" : "transparent",
-                "fillEnabled" : false,
+                "fillEnabled" : true,
+                "fillGradient" : {
+                  "__class" : "LinearGradient",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "end" : "rgba(0,0,0,0)",
+                  "start" : "black"
+                },
+                "fillImage" : "sDb1L3Rz5TUfg8fb5Qwzl7nTSN6RxuoW8g3qeqq9beY2hEp4TNHM2WVJcLyE9DccV9ZbFBTCfyzplWawLABH0g",
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "image",
                 "grayscale" : 0,
                 "grayScaleEnabled" : 0,
                 "height" : 519,
@@ -3463,8 +3876,6 @@
                 "hueRotate" : 0,
                 "hueRotateEnabled" : 0,
                 "id" : "k|N(7U#,",
-                "image" : "sDb1L3Rz5TUfg8fb5Qwzl7nTSN6RxuoW8g3qeqq9beY2hEp4TNHM2WVJcLyE9DccV9ZbFBTCfyzplWawLABH0g",
-                "imageBackgroundSize" : "Cover",
                 "intrinsicHeight" : 1024,
                 "intrinsicWidth" : 768,
                 "invert" : 0,
@@ -3473,11 +3884,11 @@
                 "locked" : false,
                 "name" : "sevigny",
                 "opacity" : 1,
-                "originalFilename" : "sevigny.jpg",
                 "parentid" : "\/yByn^g\/",
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
+                "radiusIsRelative" : false,
                 "radiusPerCorner" : false,
                 "radiusTopLeft" : 0,
                 "radiusTopRight" : 0,
@@ -3498,6 +3909,8 @@
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -3510,6 +3923,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -3518,6 +3935,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "\/yByn^g\/",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 0,
@@ -3528,6 +3947,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -3544,7 +3964,7 @@
             "widthFactor" : null
           },
           {
-            "__class" : "RectangleNode",
+            "__class" : "FrameNode",
             "aspectRatioLocked" : false,
             "blendingEnabled" : 0,
             "blendingMode" : "normal",
@@ -3575,6 +3995,8 @@
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportIncludesBackground" : true,
             "exportOptions" : [
 
             ],
@@ -3587,6 +4009,10 @@
               "end" : "rgba(0,0,0,0)",
               "start" : "black"
             },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
             "fillType" : "color",
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
@@ -3595,6 +4021,8 @@
             "hueRotate" : 0,
             "hueRotateEnabled" : 0,
             "id" : "P7ckWH}Z",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
             "invert" : 0,
             "invertEnabled" : 0,
             "left" : 20,
@@ -3605,6 +4033,7 @@
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
             "radiusPerCorner" : false,
             "radiusTopLeft" : 0,
             "radiusTopRight" : 0,
@@ -3712,6 +4141,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<span data-offset-key=\"5vtih-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:#333333;font-size:26px;letter-spacing:0px;line-height:1.3\"><span data-text=\"true\">Your Week in Culture: Chloë Sevingy, Sharon Jones, Michelangelo’s Drawings at the Met<\/span><\/span>",
+                "os" : "10_13",
+                "size" : {
+                  "height" : 132,
+                  "width" : 264
+                },
+                "width" : 263
+              },
               "entityMap" : {
 
               }
@@ -3720,9 +4158,7 @@
             "top" : 105,
             "visible" : true,
             "width" : 263,
-            "widthFactor" : null,
-            "x" : 98,
-            "y" : 202
+            "widthFactor" : null
           },
           {
             "__class" : "TextNode",
@@ -3829,9 +4265,7 @@
             "top" : 691,
             "visible" : true,
             "width" : 335,
-            "widthFactor" : null,
-            "x" : 20,
-            "y" : 288
+            "widthFactor" : null
           },
           {
             "__class" : "TextNode",
@@ -3913,6 +4347,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<span data-offset-key=\"du6nd-0-0\" style=\"font-style:italic;tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:#333333;font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">New TV shows, museum openings, film releases and concerts — it’s a lot to keep track of. Let us help. For the week of Nov. 12, seven events in New York and elsewhere not to be missed:<\/span><\/span>",
+                "os" : "10_13",
+                "size" : {
+                  "height" : 95,
+                  "width" : 336
+                },
+                "width" : 335
+              },
               "entityMap" : {
 
               }
@@ -3921,9 +4364,7 @@
             "top" : 751,
             "visible" : true,
             "width" : 335,
-            "widthFactor" : null,
-            "x" : 20,
-            "y" : 288
+            "widthFactor" : null
           },
           {
             "__class" : "TextNode",
@@ -4202,9 +4643,7 @@
             "top" : 949,
             "visible" : true,
             "width" : 335,
-            "widthFactor" : null,
-            "x" : 20,
-            "y" : 288
+            "widthFactor" : null
           },
           {
             "__class" : "TextNode",
@@ -4280,6 +4719,15 @@
                   "type" : "unstyled"
                 }
               ],
+              "cached" : {
+                "html" : "<span data-offset-key=\"du6nd-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;Georgia&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:21px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Theater: Chloë Sevigny Returns to the Stage<\/span><\/span>",
+                "os" : "10_13",
+                "size" : {
+                  "height" : 50,
+                  "width" : 336
+                },
+                "width" : 335
+              },
               "entityMap" : {
 
               }
@@ -4288,17 +4736,20 @@
             "top" : 871,
             "visible" : true,
             "width" : 335,
-            "widthFactor" : null,
-            "x" : 20,
-            "y" : 288
+            "widthFactor" : null
           }
         ],
+        "clip" : true,
+        "constraintsLocked" : false,
+        "contrast" : 100,
+        "contrastEnabled" : 0,
         "deviceType" : null,
         "exportIncludesBackground" : true,
         "exportOptions" : [
 
         ],
         "fillColor" : "#ffffff",
+        "fillEnabled" : true,
         "fillGradient" : {
           "__class" : "LinearGradient",
           "alpha" : 1,
@@ -4306,19 +4757,49 @@
           "end" : "rgba(0,0,0,0)",
           "start" : "black"
         },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
         "fillType" : "color",
+        "grayscale" : 0,
+        "grayScaleEnabled" : 0,
         "height" : 1585,
+        "heightFactor" : null,
+        "hueRotate" : 0,
+        "hueRotateEnabled" : 0,
         "id" : "1Zf`V'HM",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "invert" : 0,
+        "invertEnabled" : 0,
+        "left" : 475,
+        "locked" : false,
         "name" : "article",
+        "opacity" : 1,
         "parentid" : "ErdhxVB4",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "saturate" : 100,
+        "saturateEnabled" : 0,
+        "sepia" : 0,
+        "sepiaEnabled" : 0,
         "targetName" : "article",
+        "top" : 0,
+        "visible" : true,
         "width" : 375,
-        "x" : 475,
-        "y" : 0
+        "widthFactor" : null
       }
     ],
     "id" : "ErdhxVB4",
     "parentid" : null
   },
-  "version" : 13
+  "version" : 21
 }

@@ -56,11 +56,11 @@ window.__imported__["shareSheet@2x/layers.json.js"] = [
 	}
 ]
 if (DeviceComponent) {DeviceComponent.Devices["iphone-6-silver"].deviceImageJP2 = false};
-if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"iphone-hands-1","deviceType":"apple-iphone-6s-silver","contentScale":1,"hideBezel":false,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceView = {"deviceScale":"fit","selectedHand":"iphone-hands-1","deviceType":"apple-iphone-8-silver","contentScale":1,"hideBezel":true,"orientation":0};
 }
-if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"iphone-hands-1","deviceType":"apple-iphone-6s-silver","contentScale":1,"hideBezel":false,"orientation":0};
+if (window.Framer) {window.Framer.Defaults.DeviceComponent = {"deviceScale":"fit","selectedHand":"iphone-hands-1","deviceType":"apple-iphone-8-silver","contentScale":1,"hideBezel":true,"orientation":0};
 }
-window.FramerStudioInfo = {"deviceImagesUrl":"\/\/resources.framerjs.com\/static\/DeviceResources","documentTitle":"Arts.framer"};
+window.FramerStudioInfo = {"deviceImagesUrl":"\/_server\/resources\/DeviceImages","documentTitle":"Arts.framer"};
 
 Framer.Device = new Framer.DeviceView();
 Framer.Device.setupContext();
