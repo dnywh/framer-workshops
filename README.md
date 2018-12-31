@@ -1,5 +1,5 @@
 # Framer Workshops
-A one-stop-shop for running Framer workshops. Good for 3 hours, with wiggle-room for more/less.
+A one-stop-shop for running Framer [Classic](https://classic.framer.com) workshops. Good for 3 hours, with wiggle-room for more/less.
 
 See [the wiki](https://github.com/dannyalright/framer-workshops/wiki/) for general Framer tips and practices.
 
